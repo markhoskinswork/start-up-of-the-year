@@ -1,0 +1,109 @@
+/* COMMENTS FOR BOOTSTRAP 4 */
+/* Box sizing 
+    For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. 
+    This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
+    On the rare occasion you need to override it, use something like the following:
+    
+    Copy ------->
+        .selector-for-some-widget {
+            box-sizing: content-box;
+        }
+
+    With the above snippet, nested elements—including generated content via ::before and ::after—will all inherit the specified box-sizing for that .selector-for-some-widget.
+    Learn more about box model and sizing at CSS Tricks.
+*/
+
+/* transform: rotate(20deg); Standard syntax
+    With height property and color */
+
+* {
+
+}
+
+html {
+
+}
+
+body {
+
+}
+
+main {
+
+}
+
+nav {
+    /* height: 8vh; */
+}
+
+footer {
+
+}
+
+/* Id's */
+#id1 {
+
+}
+
+#id2 {
+
+}
+
+#id3 {
+
+}
+
+/* Classes */
+
+.dropdownBg {
+    
+}
+
+.div1 {
+    /* position: relative; */
+}
+
+.div2 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+}
+
+.div3 {
+    
+}
+
+.landingImg {
+    width: 100%;
+    height: 92vh;
+    object-fit: cover;
+}
+
+.landingHeader {
+    font-size: 25px;
+}
+
+.btn {
+    padding: 2px 20px;
+}
+
+.btn1 {
+    padding: 5px;
+}
+
+
+/* body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(/Images/LandingPageBeachHut.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
